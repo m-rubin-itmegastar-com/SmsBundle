@@ -7,7 +7,7 @@ This bundle will help you to implement an sms messages to your project
 You can install this bundle by the following command: 
 
 ``` bash
-$ composer require itmegastar/sms-bundle ^1.0
+$ composer require itmegastar/sms-bundle ^1.2
 ```
 
 # Configuration

@@ -22,9 +22,9 @@ class SmsCenterException extends \Exception
         9 => 'Sending more than one identical request to send an SMS message or more than five identical requests to receive the message\'s cost within a minute.',
     ];
 
-    public function __construct(int $code)
+    public function __construct(int $code, $phone)
     {
-        parent::__construct(sprintf('%u: %s', $code, $this->getCodeDescription($code)), $code);
+        parent::__construct(sprintf('%u: %s', $code, $this->getCodeDescription($code)) . " Phone:$phone", $code);
     }
 
     private function getCodeDescription(int $code): string

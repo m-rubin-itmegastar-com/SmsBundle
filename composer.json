@@ -5,7 +5,7 @@
     "keywords": [
         "Sms", "sms.ru", "smsaero.ru", "iqsms.ru", "smsc.ru", "messagebird.com"
     ],
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": "MIT",
     "homepage": "https://github.com/m-rubin-itmegastar-com/SmsBundle",
     "authors": [

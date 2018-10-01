@@ -115,7 +115,7 @@ class SmsCenterProvider implements ProviderInterface
         $jsonResponse = json_decode($response->getBody()->getContents());
 
         if (property_exists($jsonResponse, 'error_code')) {
-            throw new SmsCenterException($jsonResponse->error_code);
+            throw new SmsCenterException($jsonResponse->error_code, $sms->getPhoneNumber());
         }
 
         return true;
