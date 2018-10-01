@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\DependencyInjection\Factory\Provider;
+namespace ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider;
 
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use Symfony\Component\DependencyInjection\ChildDefinition;

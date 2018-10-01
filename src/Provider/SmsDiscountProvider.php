@@ -1,11 +1,11 @@
 <?php
 
-namespace Yamilovs\Bundle\SmsBundle\Provider;
+namespace ITMegastar\Bundle\SmsBundle\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use Yamilovs\Bundle\SmsBundle\Exception\SmsDiscountException;
-use Yamilovs\Bundle\SmsBundle\Sms\SmsInterface;
+use ITMegastar\Bundle\SmsBundle\Exception\SmsDiscountException;
+use ITMegastar\Bundle\SmsBundle\Sms\SmsInterface;
 
 class SmsDiscountProvider implements ProviderInterface
 {

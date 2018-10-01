@@ -1,8 +1,8 @@
 <?php
 
-namespace Yamilovs\Bundle\SmsBundle\Service;
+namespace ITMegastar\Bundle\SmsBundle\Service;
 
-use Yamilovs\Bundle\SmsBundle\Provider\ProviderInterface;
+use ITMegastar\Bundle\SmsBundle\Provider\ProviderInterface;
 
 class ProviderManager
 {

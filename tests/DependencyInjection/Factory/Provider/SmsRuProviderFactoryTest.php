@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\DependencyInjection\Factory\Provider;
+namespace ITMegastar\Bundle\SmsBundle\Tests\DependencyInjection\Factory\Provider;
 
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 use ReflectionMethod;
 use Symfony\Component\Config\Definition\Builder\BooleanNodeDefinition;
 use Symfony\Component\Config\Definition\Builder\ScalarNodeDefinition;
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\Factory\Provider\ProviderFactoryInterface;
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\Factory\Provider\SmsRuProviderFactory;
-use Yamilovs\Bundle\SmsBundle\Provider\ProviderInterface;
-use Yamilovs\Bundle\SmsBundle\Provider\SmsRuProvider;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\ProviderFactoryInterface;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\SmsRuProviderFactory;
+use ITMegastar\Bundle\SmsBundle\Provider\ProviderInterface;
+use ITMegastar\Bundle\SmsBundle\Provider\SmsRuProvider;
 
 class SmsRuProviderFactoryTest extends TestCase
 {

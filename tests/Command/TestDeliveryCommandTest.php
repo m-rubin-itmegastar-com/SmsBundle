@@ -1,13 +1,13 @@
 <?php
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\Command;
+namespace ITMegastar\Bundle\SmsBundle\Tests\Command;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Tester\CommandTester;
-use Yamilovs\Bundle\SmsBundle\Command\TestDeliveryCommand;
-use Yamilovs\Bundle\SmsBundle\Service\ProviderManager;
-use Yamilovs\Bundle\SmsBundle\Tests\Fixture\Provider\ProviderFixture;
+use ITMegastar\Bundle\SmsBundle\Command\TestDeliveryCommand;
+use ITMegastar\Bundle\SmsBundle\Service\ProviderManager;
+use ITMegastar\Bundle\SmsBundle\Tests\Fixture\Provider\ProviderFixture;
 
 class TestDeliveryCommandTest extends TestCase
 {
@@ -20,7 +20,7 @@ class TestDeliveryCommandTest extends TestCase
         $pm->addProvider($providerName, ProviderFixture::getProvider());
         $app->add(new TestDeliveryCommand($pm));
 
-        $command = $app->find('yamilovs:sms:delivery:test');
+        $command = $app->find('itmegastar:sms:delivery:test');
         $commandTester = new CommandTester($command);
         $commandTester->execute([
             'command' => $command->getName(),

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\Sms;
+namespace ITMegastar\Bundle\SmsBundle\Tests\Sms;
 
 use PHPUnit\Framework\TestCase;
-use Yamilovs\Bundle\SmsBundle\Sms\Sms;
+use ITMegastar\Bundle\SmsBundle\Sms\Sms;
 
 final class SmsTest extends TestCase
 {

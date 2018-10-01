@@ -1,14 +1,16 @@
 <?php
 
-namespace Yamilovs\Bundle\SmsBundle;
+namespace ITMegastar\Bundle\SmsBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\Compiler\ProviderCompilerPass;
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\Factory\Provider\{
-    MessageBirdProviderFactory, SmsAeroProviderFactory, SmsCenterProviderFactory, SmsDiscountProviderFactory, SmsRuProviderFactory
-};
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\SmsExtension;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Compiler\ProviderCompilerPass;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\MessageBirdProviderFactory;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\SmsAeroProviderFactory;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\SmsCenterProviderFactory;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\SmsDiscountProviderFactory;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\SmsRuProviderFactory;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\SmsExtension;
 
 class SmsBundle extends Bundle
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yamilovs\Bundle\SmsBundle\Exception;
+namespace ITMegastar\Bundle\SmsBundle\Exception;
 
 class SmsAeroException extends \Exception
 {

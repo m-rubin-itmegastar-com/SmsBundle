@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\Service;
+namespace ITMegastar\Bundle\SmsBundle\Tests\Service;
 
 use PHPUnit\Framework\TestCase;
-use Yamilovs\Bundle\SmsBundle\Service\ProviderManager;
-use Yamilovs\Bundle\SmsBundle\Tests\Fixture\Provider\ProviderFixture;
+use ITMegastar\Bundle\SmsBundle\Service\ProviderManager;
+use ITMegastar\Bundle\SmsBundle\Tests\Fixture\Provider\ProviderFixture;
 
 class ProviderManagerTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\Fixture\Provider;
+namespace ITMegastar\Bundle\SmsBundle\Tests\Fixture\Provider;
 
-use Yamilovs\Bundle\SmsBundle\Provider\ProviderInterface;
-use Yamilovs\Bundle\SmsBundle\Sms\SmsInterface;
+use ITMegastar\Bundle\SmsBundle\Provider\ProviderInterface;
+use ITMegastar\Bundle\SmsBundle\Sms\SmsInterface;
 
 class ProviderFixture
 {

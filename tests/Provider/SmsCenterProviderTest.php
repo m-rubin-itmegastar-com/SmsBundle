@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\Provider;
+namespace ITMegastar\Bundle\SmsBundle\Tests\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use Yamilovs\Bundle\SmsBundle\Exception\SmsCenterException;
-use Yamilovs\Bundle\SmsBundle\Provider\SmsCenterProvider;
-use Yamilovs\Bundle\SmsBundle\Sms\Sms;
+use ITMegastar\Bundle\SmsBundle\Exception\SmsCenterException;
+use ITMegastar\Bundle\SmsBundle\Provider\SmsCenterProvider;
+use ITMegastar\Bundle\SmsBundle\Sms\Sms;
 
 class SmsCenterProviderTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\Provider;
+namespace ITMegastar\Bundle\SmsBundle\Tests\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;

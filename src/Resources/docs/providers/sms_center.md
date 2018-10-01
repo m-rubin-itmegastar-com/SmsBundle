@@ -12,8 +12,8 @@ Provider to connect with [Sms Center](https://smsc.ru/) service.
 ## Example
 
 ``` yaml
-# config/yamilovs_sms.yaml
-yamilovs_sms:
+# config/itmegastar_sms.yaml
+itmegastar_sms:
     providers:
         sms_center_provider_doc:
             sms_center:

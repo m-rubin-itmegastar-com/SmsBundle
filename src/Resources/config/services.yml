@@ -2,28 +2,28 @@ services:
     _defaults:
         public: false
 
-    yamilovs_sms.prototype.provider.sms_ru:
-        class: Yamilovs\Bundle\SmsBundle\Provider\SmsRuProvider
+    itmegastar_sms.prototype.provider.sms_ru:
+        class: ITMegastar\Bundle\SmsBundle\Provider\SmsRuProvider
 
-    yamilovs_sms.prototype.provider.sms_aero:
-        class: Yamilovs\Bundle\SmsBundle\Provider\SmsAeroProvider
+    itmegastar_sms.prototype.provider.sms_aero:
+        class: ITMegastar\Bundle\SmsBundle\Provider\SmsAeroProvider
 
-    yamilovs_sms.prototype.provider.sms_discount:
-        class: Yamilovs\Bundle\SmsBundle\Provider\SmsDiscountProvider
+    itmegastar_sms.prototype.provider.sms_discount:
+        class: ITMegastar\Bundle\SmsBundle\Provider\SmsDiscountProvider
 
-    yamilovs_sms.prototype.provider.sms_center:
-        class: Yamilovs\Bundle\SmsBundle\Provider\SmsCenterProvider
+    itmegastar_sms.prototype.provider.sms_center:
+        class: ITMegastar\Bundle\SmsBundle\Provider\SmsCenterProvider
 
-    yamilovs_sms.prototype.provider.message_bird:
-        class: Yamilovs\Bundle\SmsBundle\Provider\MessageBirdProvider
+    itmegastar_sms.prototype.provider.message_bird:
+        class: ITMegastar\Bundle\SmsBundle\Provider\MessageBirdProvider
 
-    yamilovs_sms.provider.manager:
-        class: Yamilovs\Bundle\SmsBundle\Service\ProviderManager
+    itmegastar_sms.provider.manager:
+        class: ITMegastar\Bundle\SmsBundle\Service\ProviderManager
 
-    Yamilovs\Bundle\SmsBundle\Service\ProviderManager: '@yamilovs_sms.provider.manager'
+    ITMegastar\Bundle\SmsBundle\Service\ProviderManager: '@itmegastar_sms.provider.manager'
 
-    yamilovs_sms.command.test_delivery:
-        class: Yamilovs\Bundle\SmsBundle\Command\TestDeliveryCommand
-        arguments: ['@yamilovs_sms.provider.manager']
+    itmegastar_sms.command.test_delivery:
+        class: ITMegastar\Bundle\SmsBundle\Command\TestDeliveryCommand
+        arguments: ['@itmegastar_sms.provider.manager']
         tags:
             - { name: 'console.command' }

@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Yamilovs\Bundle\SmsBundle\Tests\DependencyInjection\Compiler;
+namespace ITMegastar\Bundle\SmsBundle\Tests\DependencyInjection\Compiler;
 
 use Symfony\Bundle\FrameworkBundle\Tests\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\Compiler\ProviderCompilerPass;
-use Yamilovs\Bundle\SmsBundle\DependencyInjection\Factory\Provider\AbstractProviderFactory;
-use Yamilovs\Bundle\SmsBundle\Provider\SmsAeroProvider;
-use Yamilovs\Bundle\SmsBundle\Provider\SmsCenterProvider;
-use Yamilovs\Bundle\SmsBundle\Provider\SmsDiscountProvider;
-use Yamilovs\Bundle\SmsBundle\Provider\SmsRuProvider;
-use Yamilovs\Bundle\SmsBundle\Service\ProviderManager;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Compiler\ProviderCompilerPass;
+use ITMegastar\Bundle\SmsBundle\DependencyInjection\Factory\Provider\AbstractProviderFactory;
+use ITMegastar\Bundle\SmsBundle\Provider\SmsAeroProvider;
+use ITMegastar\Bundle\SmsBundle\Provider\SmsCenterProvider;
+use ITMegastar\Bundle\SmsBundle\Provider\SmsDiscountProvider;
+use ITMegastar\Bundle\SmsBundle\Provider\SmsRuProvider;
+use ITMegastar\Bundle\SmsBundle\Service\ProviderManager;
 
 class ProviderCompilerPassTest extends TestCase
 {
