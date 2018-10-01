@@ -84,7 +84,7 @@ class SmsCenterProvider implements ProviderInterface
 
     private function getPassword(): string
     {
-        return mb_strtolower(md5($this->password));
+        return $this->password;
     }
 
     private function getPostData(SmsInterface $sms): array
