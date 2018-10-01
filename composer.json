@@ -1,16 +1,20 @@
 {
-    "name": "yamilovs/sms-bundle",
+    "name": "m-rubin-itmegastar-com/sms-bundle",
     "type": "symfony-bundle",
     "description": "Sms sending system with different providers",
     "keywords": [
         "Sms", "sms.ru", "smsaero.ru", "iqsms.ru", "smsc.ru", "messagebird.com"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/yamilovs/SmsBundle",
+    "homepage": "https://github.com/m-rubin-itmegastar-com/SmsBundle",
     "authors": [
         {
             "name": "Yamilov Stepan",
             "email": "yamilovs@gmail.com"
+        },
+        {
+            "name": "Mihail Rubin",
+            "email": "n.rubin@itmegastar.com"
         }
     ],
     "require": {
